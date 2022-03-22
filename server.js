@@ -1,17 +1,3 @@
-// const express = require("express");
-// const connection = require("./connection"); //Database connection.
-// const bodyParser = require("body-parser"); //Handles conversion from and to JSON.
-// const router = require("express").Router();
-// const cors = require("cors");
-
-// //Instance of express that creates a server that listens for requests.
-// const app = express(); 
-
-// app.use(cors());
-// app.use(express.json());
-// app.use(bodyParser.json());
-// app.use(express.urlencoded({extended: true}));
-// app.use(bodyParser.urlencoded({extended: true}));
 
 const express = require("express");
 const cors = require("cors");
